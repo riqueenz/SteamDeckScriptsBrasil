@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# Xone é o driver para usar o adaptador wireless para controles do Xbox
+# Esse adaptador usa o protocolo proprietário da Microsoft Game Input Protocol (GIP)
+# https://github.com/medusalix/xone
+#
+# Instalar xone usando o script disponível em:
+# https://gist.github.com/SavageCore/263a3413532bc181c9bb215c8fe6c30d
+#
+echo "-----------" >> $HOME/"Steam Deck Scripts Brasil.txt"
+echo "Script de instalação do Xone executado em:" >> $HOME/"Steam Deck Scripts Brasil.txt"
+wget -O /tmp/bootstrap.sh https://gist.githubusercontent.com/SavageCore/263a3413532bc181c9bb215c8fe6c30d/raw/8cfbc292c4b55612a2ebea3227911a3c3a6ae214/bootstrap.sh && sh /tmp/bootstrap.sh
