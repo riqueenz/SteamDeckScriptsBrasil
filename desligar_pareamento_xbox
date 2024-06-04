@@ -1,3 +1,10 @@
 #!/bin/bash
 #
+# Xone é o driver para usar o adaptador wireless para controles do Xbox
+# Esse adaptador usa o protocolo proprietário da Microsoft Game Input Protocol (GIP)
+# https://github.com/medusalix/xone
+#
+# Instalar xone usando o script disponível em:
+# https://gist.github.com/SavageCore/263a3413532bc181c9bb215c8fe6c30d
+#
 echo 0 | sudo tee /sys/bus/usb/drivers/xone-dongle/*/pairing
