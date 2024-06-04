@@ -7,4 +7,4 @@
 # Instalar xone usando o script disponível em:
 # https://gist.github.com/SavageCore/263a3413532bc181c9bb215c8fe6c30d
 #
-bash $HOME/xone_install_or_update.sh
+bash $HOME/xone_install_or_update.sh --debug
