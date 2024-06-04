@@ -1,12 +1,14 @@
 #!/bin/bash
-echo "atualizando aplicativos em flatpak"
+echo "Atualizando aplicativos em flatpak"
 echo "flatpak update -y"
 flatpak update -y
-echo " " >> $HOME/0_data_atualizado.txt
-echo "Flatpak atualizado em:" >> $HOME/0_data_atualizado.txt
-echo $(date) >> $HOME/0_data_atualizado.txt
+echo " " >> $HOME/"Steam Deck Scripts Brasil.txt"
+echo "-----------" >> $HOME/"Steam Deck Scripts Brasil.txt"
+echo "Script de atualização do Flatpak executado em:" >> $HOME/"Steam Deck Scripts Brasil.txt"
+echo $(date) >> $HOME/"Steam Deck Scripts Brasil.txt"
+echo "Removendo dependências não usadas"
 echo "flatpak uninstall --unused -y"
 flatpak uninstall --unused -y
-echo " " >> $HOME/0_data_atualizado.txt
-echo "Limpeza dos runtimes do Flatpak:" >> $HOME/0_data_atualizado.txt
-echo $(date) >> $HOME/0_data_atualizado.txt
+echo " " >> $HOME/"Steam Deck Scripts Brasil.txt"
+echo "Limpeza dos runtimes não usados do Flatpak:" >> $HOME/"Steam Deck Scripts Brasil.txt"
+echo $(date) >> $HOME/"Steam Deck Scripts Brasil.txt"
