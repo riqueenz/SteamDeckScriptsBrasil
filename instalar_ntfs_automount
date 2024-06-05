@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Script to Auto-Mount NTFS, BTRFS & exFat SDCards,
+# External USB Drives (or SSD Docks) & Internal Partitions (If you Dual-Boot) on the Steam Deck
+#
+# Instalar usando o script disponível em:
+https://github.com/scawp/Steam-Deck.Mount-External-Drive
+#
+echo "-----------" >> $HOME/"Steam Deck Scripts Brasil.txt"
+echo "Script de instalação do Xone executado em:" >> $HOME/"Steam Deck Scripts Brasil.txt"
+curl -sSL https://raw.githubusercontent.com/scawp/Steam-Deck.Mount-External-Drive/main/curl_install.sh | bash
